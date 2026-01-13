@@ -1,0 +1,9 @@
+node_modules
+*.test.js
+.git
+.gitignore
+.env
+*.md
+!package*.json
+Dockerfile
+.dockerignore
