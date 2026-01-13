@@ -1,0 +1,23 @@
+{
+  "name": "payment-routing-service",
+  "version": "1.0.0",
+  "description": "Dynamic Payment Gateway Routing System with load balancing and health monitoring",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "jest --verbose",
+    "test:watch": "jest --watch"
+  },
+  "keywords": ["payment-gateway", "load-balancing", "circuit-breaker"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
